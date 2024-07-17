@@ -1,0 +1,238 @@
+{
+    "new_entries": {
+        "has_next": false,
+        "page": 1,
+        "results": []
+    },
+    "last_updated_data": "2024-05-19T19:23:08Z",
+    "league": {
+        "id": 736795,
+        "name": "Gabe's $$ League",
+        "created": "2023-08-01T17:17:12.304211Z",
+        "closed": false,
+        "max_entries": null,
+        "league_type": "x",
+        "scoring": "c",
+        "admin_entry": 1802408,
+        "start_event": 1,
+        "code_privacy": "p",
+        "has_cup": true,
+        "cup_league": 2597713,
+        "rank": null
+    },
+    "standings": {
+        "has_next": false,
+        "page": 1,
+        "results": [
+            {
+                "id": 23906062,
+                "event_total": 56,
+                "player_name": "Cam Morse",
+                "rank": 1,
+                "last_rank": 1,
+                "rank_sort": 1,
+                "total": 2501,
+                "entry": 2167508,
+                "entry_name": "Team Name"
+            },
+            {
+                "id": 23483599,
+                "event_total": 83,
+                "player_name": "Seamus Meagher",
+                "rank": 2,
+                "last_rank": 3,
+                "rank_sort": 2,
+                "total": 2437,
+                "entry": 2141671,
+                "entry_name": "Shays dogs"
+            },
+            {
+                "id": 38251191,
+                "event_total": 50,
+                "player_name": "William Sedgley",
+                "rank": 3,
+                "last_rank": 2,
+                "rank_sort": 3,
+                "total": 2410,
+                "entry": 243874,
+                "entry_name": "LA Lads"
+            },
+            {
+                "id": 56207119,
+                "event_total": 57,
+                "player_name": "Brady Gardner",
+                "rank": 4,
+                "last_rank": 4,
+                "rank_sort": 4,
+                "total": 2312,
+                "entry": 6804892,
+                "entry_name": "BG FC"
+            },
+            {
+                "id": 23481658,
+                "event_total": 82,
+                "player_name": "Gabe Fajardo",
+                "rank": 5,
+                "last_rank": 6,
+                "rank_sort": 5,
+                "total": 2305,
+                "entry": 1802408,
+                "entry_name": "FC Footballclub"
+            },
+            {
+                "id": 46716191,
+                "event_total": 44,
+                "player_name": "Jehan Mody",
+                "rank": 6,
+                "last_rank": 5,
+                "rank_sort": 6,
+                "total": 2282,
+                "entry": 5892111,
+                "entry_name": "Ten Hag Ball"
+            },
+            {
+                "id": 48991585,
+                "event_total": 41,
+                "player_name": "Brian Gardner",
+                "rank": 7,
+                "last_rank": 8,
+                "rank_sort": 7,
+                "total": 2239,
+                "entry": 5324720,
+                "entry_name": "Hammer Time"
+            },
+            {
+                "id": 23485692,
+                "event_total": 29,
+                "player_name": "Matt Buller",
+                "rank": 8,
+                "last_rank": 7,
+                "rank_sort": 8,
+                "total": 2232,
+                "entry": 2101840,
+                "entry_name": "Boehly Ball"
+            },
+            {
+                "id": 41466311,
+                "event_total": 90,
+                "player_name": "Ademini Adeshina",
+                "rank": 9,
+                "last_rank": 10,
+                "rank_sort": 9,
+                "total": 2228,
+                "entry": 3981053,
+                "entry_name": "AAFC"
+            },
+            {
+                "id": 38218502,
+                "event_total": 69,
+                "player_name": "Luka Pappas",
+                "rank": 10,
+                "last_rank": 9,
+                "rank_sort": 10,
+                "total": 2213,
+                "entry": 231680,
+                "entry_name": "certi snappers"
+            },
+            {
+                "id": 27029888,
+                "event_total": 72,
+                "player_name": "Shubh Parekh",
+                "rank": 11,
+                "last_rank": 11,
+                "rank_sort": 11,
+                "total": 2148,
+                "entry": 3789786,
+                "entry_name": "SPFC"
+            },
+            {
+                "id": 56496977,
+                "event_total": 55,
+                "player_name": "Jay Mehta",
+                "rank": 12,
+                "last_rank": 12,
+                "rank_sort": 12,
+                "total": 2108,
+                "entry": 3447412,
+                "entry_name": "Lads on Toure"
+            },
+            {
+                "id": 23919327,
+                "event_total": 56,
+                "player_name": "Ethan Wilt",
+                "rank": 13,
+                "last_rank": 13,
+                "rank_sort": 13,
+                "total": 2078,
+                "entry": 3444706,
+                "entry_name": "Reds"
+            },
+            {
+                "id": 55832809,
+                "event_total": 79,
+                "player_name": "Harry Rohlfing",
+                "rank": 14,
+                "last_rank": 14,
+                "rank_sort": 14,
+                "total": 2024,
+                "entry": 6810407,
+                "entry_name": "Baggie Bred"
+            },
+            {
+                "id": 46810517,
+                "event_total": 21,
+                "player_name": "Marc Mays",
+                "rank": 15,
+                "last_rank": 15,
+                "rank_sort": 15,
+                "total": 1958,
+                "entry": 5901996,
+                "entry_name": "White Rice and Kiwi"
+            },
+            {
+                "id": 66999416,
+                "event_total": 21,
+                "player_name": "Aidan Trip",
+                "rank": 16,
+                "last_rank": 16,
+                "rank_sort": 16,
+                "total": 1917,
+                "entry": 7901904,
+                "entry_name": "zee dawgz"
+            },
+            {
+                "id": 68464538,
+                "event_total": 43,
+                "player_name": "Jacques Hughes",
+                "rank": 17,
+                "last_rank": 17,
+                "rank_sort": 17,
+                "total": 1892,
+                "entry": 8057533,
+                "entry_name": "ur my son"
+            },
+            {
+                "id": 42118922,
+                "event_total": 30,
+                "player_name": "Andres Aradillas Fernandez",
+                "rank": 18,
+                "last_rank": 19,
+                "rank_sort": 18,
+                "total": 1713,
+                "entry": 5373167,
+                "entry_name": "Treblers"
+            },
+            {
+                "id": 41496960,
+                "event_total": 15,
+                "player_name": "Nick Augustyn",
+                "rank": 19,
+                "last_rank": 18,
+                "rank_sort": 19,
+                "total": 1705,
+                "entry": 5294758,
+                "entry_name": "KoroFC"
+            }
+        ]
+    }
+}

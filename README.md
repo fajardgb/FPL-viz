@@ -2,7 +2,7 @@
 
 FPL Helpful Visualizations
 
-As the Admin of a Fantasy Premier League (FPL) league, I created a few informative tools to make the experience more enjoyable. 
+As the Admin of a Fantasy Premier League (FPL) league, I created a few informative tools to make the season more enjoyable. 
 
 Lots of thanks to Jack Somervell and his article [A Complete Guide to the Fantasy Premier League (FPL) API](https://www.game-change.co.uk/2023/02/10/a-complete-guide-to-the-fantasy-premier-league-fpl-api/)!
 
@@ -78,4 +78,26 @@ Use the ```plot_captaincy``` function!
 Use the ```plot_most_owned``` function!
 
 ![most_owned](imgs/most_owned.png)
+
+## Fixture Difficulty Rating (FDR) Representational Similarity Matrices (RSM)
+
+Players with easier fixtures tend to get more points. The ```GW_FDR_RSM.ipynb``` notebook has some functions to find out which teams have the easiest fixtures and which teams complement each other best, for a given set of GWs. 
+
+## Plot FDR Sum
+
+Use the ```plot_fdr_df``` function!
+
+![plot_fdr_df](imgs/fdr_sum.png)
+
+## Plot FDR RSM
+
+Use the ```get_and_plot_fdr_rdm``` function!
+
+This plot allows us to see which teams have dissimilar GW difficulty scores
+
+It is helpful for substitutions and backups - when one player has a bad fixture in a given GW, we can try to get a different player with a good fixture on that GW. 
+
+The higher the value in the RDM, the more different the FDR for the select gameweeks. 0 values mean they have the same FDRs - ie: the diagonal compares each team to itself, so the value of the diagonal = 0. 
+
+![get_and_plot_fdr_rdm](imgs/fdr_rsm.png)
 

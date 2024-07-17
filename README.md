@@ -99,6 +99,8 @@ It is helpful for substitutions and backups - when one player has a bad fixture 
 
 The higher the value in the RDM, the more different the FDR for the select gameweeks. 0 values mean they have the same FDRs - ie: the diagonal compares each team to itself, so the value of the diagonal = 0. 
 
+--- 
+
 In FPL, a known strategy is to purchase two low cost (<4.5) keepers and rotate them out. How do we select these two keepers? 
 
 This season (2023-24), there were a few promising keepers who cost $4.5 or less:

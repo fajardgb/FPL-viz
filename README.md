@@ -53,7 +53,7 @@ Note: the packages may be tricky to install.
 
 ![bar_chart_race_gw_history](imgs/league_736795_bar_chart_race.mp4)
 
-## Let's get Gameweek specific info
+## Gameweek specific visualizations
 
 - chip usage
 - captaincy

@@ -2,7 +2,7 @@
 
 FPL Helpful Visualizations
 
-As the Admin of a Fantasy Premier League (FPL) league, I created a few informative tools to make the season more enjoyable. 
+As the Commisioner of a Fantasy Premier League (FPL) league, I created a few informative tools to make the season more fun! 
 
 Lots of thanks to Jack Somervell and his article [A Complete Guide to the Fantasy Premier League (FPL) API](https://www.game-change.co.uk/2023/02/10/a-complete-guide-to-the-fantasy-premier-league-fpl-api/)!
 

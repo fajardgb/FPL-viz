@@ -27,7 +27,7 @@ This function also saves the manager name and ID of the user data as a pickle di
 
 ### Get user data across time
 
-Using the ```entry_to_player_dict.pickle``` dictionary, we can get the user data across the course of the league. In other words, we can get the number of points for each gameweek. 
+Using the ```league_{league_id}_entry_to_player_dict.pickle``` dictionary, we can get the user data across the course of the league. In other words, we can get the number of points for each gameweek. 
 
 Fetch the history data by using the ```fetch_and_save_history``` function. Make a df of this data using the ```get_gw_history_df``` function. 
 

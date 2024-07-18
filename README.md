@@ -59,8 +59,6 @@ Note: the packages may be tricky to install.
 - captaincy
 - most owned players
 
-Let's first set the gameweek (```GW```) we want to look at. 
-
 ### Current GW chip data
 
 Use the ```plot_active_chips``` function!

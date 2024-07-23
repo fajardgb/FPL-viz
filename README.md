@@ -55,6 +55,8 @@ Note: the packages may be tricky to install.
 
 ## Gameweek specific visualizations
 
+Note: these scripts can only run for a GW after it starts!
+
 - chip usage
 - captaincy
 - most owned players

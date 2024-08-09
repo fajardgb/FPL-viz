@@ -6,7 +6,7 @@ As the Commisioner of a Fantasy Premier League (FPL) league, I created a few inf
 
 Lots of thanks to Jack Somervell and his article [A Complete Guide to the Fantasy Premier League (FPL) API](https://www.game-change.co.uk/2023/02/10/a-complete-guide-to-the-fantasy-premier-league-fpl-api/)!
 
-## First, we need to get the data for the league (and it's users)
+## League user visualizations
 All we need is the league ID, which can be found like so:
 
 To get league ID: Fantasy -> Leagues and Cups -> select your league

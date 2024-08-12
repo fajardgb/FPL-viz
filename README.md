@@ -114,3 +114,25 @@ Let's see how we can find the best rotation of keepers based on maximally disimi
 ![get_and_plot_fdr_rdm](imgs/fdr_rsm.png)
 
 Based on the plot, we can see that Everton and Nottingham Forrest have the pairwise maximally distinct FDRs! When Pickford has a hard fixture (GW5 & GW9; FDR=4),  Turner has easier fixtures (FDR=2). 
+
+## Preaseason Player Scouting
+
+Some helpful data on players for the upcoming season. 
+
+### Points Per Cost
+
+Last seasons points based on this year's price. Only for games in the last half of the season (GWs 19-38). 
+
+![ppc](imgs/ppc.png)
+
+### Undeperforming players
+
+Expected goal involvements vs. goal involvements. 
+
+![underperforming](imgs/underperforming.png)
+
+### Overperforming players
+
+Expected goal involvements vs. goal involvements. 
+
+![overperforming](imgs/overperforming.png)

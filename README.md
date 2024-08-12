@@ -127,7 +127,7 @@ Last seasons points based on this year's price. Only for games in the last half 
 
 ### Undeperforming players
 
-Expected goal involvements vs. goal involvements. 
+Expected goal involvements vs. goal involvements. Ollie Watkins assisted a lot more than he was expected to - his value might be misleading. 
 
 ![underperforming](imgs/underperforming.png)
 

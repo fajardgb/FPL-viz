@@ -133,6 +133,6 @@ Expected goal involvements vs. goal involvements.
 
 ### Overperforming players
 
-Expected goal involvements vs. goal involvements. Ollie Watkins assisted a lot more than he was expected to - his value might be misleading. 
+Expected goal involvements vs. goal involvements. Ollie Watkins assisted a lot more than he was expected to - his value might be misleading. However, Douglas Luis was transferred out, so Watkins may not be on penalties. 
 
 ![overperforming](imgs/overperforming.png)

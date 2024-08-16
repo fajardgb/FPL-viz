@@ -1,0 +1,32 @@
+{
+    "current": [
+        {
+            "event": 1,
+            "points": 0,
+            "total_points": 0,
+            "rank": null,
+            "rank_sort": null,
+            "overall_rank": null,
+            "percentile_rank": null,
+            "bank": 5,
+            "value": 1000,
+            "event_transfers": 0,
+            "event_transfers_cost": 0,
+            "points_on_bench": 0
+        }
+    ],
+    "past": [
+        {
+            "season_name": "2023/24",
+            "total_points": 2078,
+            "rank": 3818437
+        }
+    ],
+    "chips": [
+        {
+            "name": "3xc",
+            "time": "2024-08-15T15:15:03.285562Z",
+            "event": 1
+        }
+    ]
+}

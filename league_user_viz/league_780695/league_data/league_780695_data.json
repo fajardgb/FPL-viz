@@ -1,0 +1,176 @@
+{
+    "new_entries": {
+        "has_next": false,
+        "page": 1,
+        "results": [
+            {
+                "entry": 1662216,
+                "entry_name": "Sledgends",
+                "joined_time": "2024-08-16T16:56:01.275438Z",
+                "player_first_name": "tom",
+                "player_last_name": "sedgley"
+            },
+            {
+                "entry": 8439351,
+                "entry_name": "Forrest",
+                "joined_time": "2024-08-16T16:39:12.928018Z",
+                "player_first_name": "Ben",
+                "player_last_name": "Brennan"
+            },
+            {
+                "entry": 7296084,
+                "entry_name": "SkengMan14",
+                "joined_time": "2024-08-16T02:31:20.510668Z",
+                "player_first_name": "Shaan",
+                "player_last_name": "Nerurkar"
+            },
+            {
+                "entry": 7263639,
+                "entry_name": "JMFC",
+                "joined_time": "2024-08-16T01:13:11.064758Z",
+                "player_first_name": "Jehan",
+                "player_last_name": "Mody"
+            },
+            {
+                "entry": 6190785,
+                "entry_name": "sakaDik",
+                "joined_time": "2024-08-14T20:36:44.331454Z",
+                "player_first_name": "Harrison",
+                "player_last_name": "Savage"
+            },
+            {
+                "entry": 6184318,
+                "entry_name": "Its footy not saka",
+                "joined_time": "2024-08-14T20:25:09.379109Z",
+                "player_first_name": "Jacques",
+                "player_last_name": "Hughes"
+            },
+            {
+                "entry": 5716768,
+                "entry_name": "Project Blue Lock",
+                "joined_time": "2024-08-14T05:12:02.637450Z",
+                "player_first_name": "Marc",
+                "player_last_name": "Mays"
+            },
+            {
+                "entry": 5682456,
+                "entry_name": "diddy fc",
+                "joined_time": "2024-08-14T01:15:07.322777Z",
+                "player_first_name": "Aidan",
+                "player_last_name": "Trip"
+            },
+            {
+                "entry": 2073867,
+                "entry_name": "Wario Ball",
+                "joined_time": "2024-08-13T22:44:19.138271Z",
+                "player_first_name": "Ethan",
+                "player_last_name": "Wilt"
+            },
+            {
+                "entry": 5534893,
+                "entry_name": "Actually Playing FC",
+                "joined_time": "2024-08-13T18:32:50.328769Z",
+                "player_first_name": "Cole",
+                "player_last_name": "Mays"
+            },
+            {
+                "entry": 4101297,
+                "entry_name": "Boehly's Career Mode",
+                "joined_time": "2024-08-13T17:54:21.696954Z",
+                "player_first_name": "Matt",
+                "player_last_name": "Buller"
+            },
+            {
+                "entry": 3950036,
+                "entry_name": "GarNachos",
+                "joined_time": "2024-08-13T16:02:51.754862Z",
+                "player_first_name": "Jay",
+                "player_last_name": "Mehta"
+            },
+            {
+                "entry": 4040748,
+                "entry_name": "Hammer Time",
+                "joined_time": "2024-08-13T14:53:25.328380Z",
+                "player_first_name": "Brian",
+                "player_last_name": "Gardner"
+            },
+            {
+                "entry": 3321209,
+                "entry_name": "3-Peat?",
+                "joined_time": "2024-08-13T14:00:06.904183Z",
+                "player_first_name": "Cam",
+                "player_last_name": "Morse"
+            },
+            {
+                "entry": 2581654,
+                "entry_name": "SPFC",
+                "joined_time": "2024-08-08T01:24:44.425151Z",
+                "player_first_name": "Shubh",
+                "player_last_name": "Parekh"
+            },
+            {
+                "entry": 3771330,
+                "entry_name": "Shays Pups",
+                "joined_time": "2024-08-08T01:23:18.688189Z",
+                "player_first_name": "Seamus",
+                "player_last_name": "Meagher"
+            },
+            {
+                "entry": 3190565,
+                "entry_name": "Bosch Boys",
+                "joined_time": "2024-08-07T19:54:28.986821Z",
+                "player_first_name": "Harry",
+                "player_last_name": "Rohlfing"
+            },
+            {
+                "entry": 3736356,
+                "entry_name": "BG FC",
+                "joined_time": "2024-08-07T19:43:35.098289Z",
+                "player_first_name": "Brady",
+                "player_last_name": "Gardner"
+            },
+            {
+                "entry": 1104743,
+                "entry_name": "LA Lads",
+                "joined_time": "2024-08-07T19:38:11.329141Z",
+                "player_first_name": "William",
+                "player_last_name": "Sedgley"
+            },
+            {
+                "entry": 3299662,
+                "entry_name": "21 is coming",
+                "joined_time": "2024-08-07T19:25:11.885279Z",
+                "player_first_name": "Luka",
+                "player_last_name": "Pappas"
+            },
+            {
+                "entry": 754678,
+                "entry_name": "Football Club FC",
+                "joined_time": "2024-08-07T19:24:26.293341Z",
+                "player_first_name": "Gabe",
+                "player_last_name": "Fajardo"
+            }
+        ]
+    },
+    "last_updated_data": null,
+    "league": {
+        "id": 780695,
+        "name": "Gabe's league 24-25",
+        "created": "2024-08-07T19:24:26.289721Z",
+        "closed": false,
+        "max_entries": null,
+        "league_type": "x",
+        "scoring": "c",
+        "admin_entry": 754678,
+        "start_event": 1,
+        "code_privacy": "p",
+        "has_cup": true,
+        "cup_league": null,
+        "rank": null
+    },
+    "standings": {
+        "has_next": false,
+        "page": 1,
+        "results": []
+    }
+}

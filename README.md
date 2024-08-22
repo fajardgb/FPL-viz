@@ -53,7 +53,7 @@ Use the ```bar_chart_race_gw_history``` function!
 
 ## Gameweek specific visualizations
 
-Note: these scripts can only run for a GW after it starts!
+Note: these scripts can only run for a GW after teams are locked in (1.5 hours before the first game)!
 
 - chip usage
 - captaincy

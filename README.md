@@ -9,7 +9,7 @@ Lots of thanks to Jack Somervell and his article [A Complete Guide to the Fantas
 ## League user visualizations
 To get started, we need your league's ID, which can be found like so:
 
-To get league ID: Fantasy -> Leagues and Cups -> select your league
+To get league ID: Fantasy &rarr; Leagues and Cups &rarr; select your league
 
 league_id = **numbers before "/standings/"** in the URL
 

@@ -2,17 +2,45 @@
     "current": [
         {
             "event": 1,
-            "points": 0,
-            "total_points": 0,
-            "rank": null,
-            "rank_sort": null,
-            "overall_rank": null,
-            "percentile_rank": null,
+            "points": 61,
+            "total_points": 61,
+            "rank": 3358109,
+            "rank_sort": 3393227,
+            "overall_rank": 3358110,
+            "percentile_rank": 40,
             "bank": 10,
             "value": 1000,
             "event_transfers": 0,
             "event_transfers_cost": 0,
-            "points_on_bench": 0
+            "points_on_bench": 3
+        },
+        {
+            "event": 2,
+            "points": 65,
+            "total_points": 126,
+            "rank": 5945831,
+            "rank_sort": 5955867,
+            "overall_rank": 4560272,
+            "percentile_rank": 65,
+            "bank": 10,
+            "value": 1001,
+            "event_transfers": 1,
+            "event_transfers_cost": 0,
+            "points_on_bench": 3
+        },
+        {
+            "event": 3,
+            "points": 68,
+            "total_points": 194,
+            "rank": 4430481,
+            "rank_sort": 4440864,
+            "overall_rank": 4168440,
+            "percentile_rank": 45,
+            "bank": 0,
+            "value": 1007,
+            "event_transfers": 0,
+            "event_transfers_cost": 0,
+            "points_on_bench": 13
         }
     ],
     "past": [
@@ -47,5 +75,11 @@
             "rank": 321111
         }
     ],
-    "chips": []
+    "chips": [
+        {
+            "name": "wildcard",
+            "time": "2024-08-25T17:28:21.286875Z",
+            "event": 3
+        }
+    ]
 }

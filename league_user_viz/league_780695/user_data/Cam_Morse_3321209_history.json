@@ -2,17 +2,45 @@
     "current": [
         {
             "event": 1,
-            "points": 0,
-            "total_points": 0,
-            "rank": null,
-            "rank_sort": null,
-            "overall_rank": null,
-            "percentile_rank": null,
+            "points": 61,
+            "total_points": 61,
+            "rank": 3358109,
+            "rank_sort": 3456318,
+            "overall_rank": 3358110,
+            "percentile_rank": 40,
             "bank": 0,
             "value": 1000,
             "event_transfers": 0,
             "event_transfers_cost": 0,
-            "points_on_bench": 0
+            "points_on_bench": 5
+        },
+        {
+            "event": 2,
+            "points": 81,
+            "total_points": 142,
+            "rank": 2136522,
+            "rank_sort": 2167880,
+            "overall_rank": 1977912,
+            "percentile_rank": 25,
+            "bank": 0,
+            "value": 1000,
+            "event_transfers": 0,
+            "event_transfers_cost": 0,
+            "points_on_bench": 11
+        },
+        {
+            "event": 3,
+            "points": 69,
+            "total_points": 211,
+            "rank": 4277560,
+            "rank_sort": 4304531,
+            "overall_rank": 2365476,
+            "percentile_rank": 45,
+            "bank": 15,
+            "value": 1004,
+            "event_transfers": 1,
+            "event_transfers_cost": 0,
+            "points_on_bench": 8
         }
     ],
     "past": [

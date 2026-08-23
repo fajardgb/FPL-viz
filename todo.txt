@@ -1,0 +1,13 @@
+- top 3 or top 5 watch
+    - league standings barplot (top 3 barplots highlighted)
+    - top1 for N gameweeks, top3 for N gameweeks, avg GW rank
+    - captain choice
+    - starting lineup
+    - chip deployment timeline (what chips they have left, are they using any right now)
+    - transfers
+    - differentials
+    - squad uniquness index - show all barplots (sorted by points) and show squad uniquness - highlight the data of the top 3 
+- make plots all into 1
+- make it automated
+    - fetch when GW updates once a day
+    - fetch GW data 30 mins after GW deadline

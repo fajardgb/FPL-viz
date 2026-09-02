@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{{ league_name }} — GW{{ gw }} Report</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="brand">
+      <span class="brand-mark">⚽</span>
+      <span class="brand-name">FPL League Reports</span>
+    </div>
+
+    <div class="report-header">
+      <div>
+        <h1>{{ league_name }}</h1>
+        <div class="report-meta">Gameweek {{ gw }} · {{ manager_count }} managers</div>
+      </div>
+      <div class="actions">
+        <a class="btn" href="/">New report</a>
+        <a class="btn primary" href="/report/{{ league_id }}/{{ gw }}/pdf">Download PDF</a>
+      </div>
+    </div>
+
+    {% for chart in charts %}
+    <div class="chart-section">
+      <img src="{{ chart_base_url }}/{{ chart.name }}" alt="{{ chart.title }}" />
+    </div>
+    {% endfor %}
+
+    <footer>Generated from the official Fantasy Premier League API.</footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FPL League Reports</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="brand">
+      <span class="brand-mark">⚽</span>
+      <span class="brand-name">FPL League Reports</span>
+    </div>
+    <h1>Generate your league's gameweek report</h1>
+    <p class="subtitle">Standings, captaincy, differentials, transfers — rendered as a page you can view or download as a PDF.</p>
+
+    {% if error %}
+    <div class="error-box">{{ error }}</div>
+    {% endif %}
+
+    <div class="card">
+      <form method="post" action="/report" id="report-form">
+        <div class="field">
+          <label for="league_id">League ID</label>
+          <input type="text" id="league_id" name="league_id" inputmode="numeric" placeholder="e.g. 1078291" required autofocus />
+          <div class="hint">Find it in your league's URL: fantasy.premierleague.com/leagues/<strong>league_id</strong>/standings/c</div>
+        </div>
+        <div class="field">
+          <label for="gw">Gameweek</label>
+          <input type="text" id="gw" name="gw" inputmode="numeric" value="{{ current_gw }}" required />
+          <div class="hint">Defaults to the current gameweek — change it to view an earlier one.</div>
+        </div>
+        <button type="submit" class="submit" id="submit-btn">Generate report</button>
+        <div class="spinner-overlay" id="spinner">
+          <div class="spinner"></div>
+          <span>Fetching league data — this can take a few seconds for larger leagues…</span>
+        </div>
+      </form>
+    </div>
+
+    <footer>Reports are generated on demand from the official FPL API and cached for finished gameweeks.</footer>
+  </div>
+
+  <script>
+    document.getElementById("report-form").addEventListener("submit", function () {
+      document.getElementById("submit-btn").disabled = true;
+      document.getElementById("submit-btn").textContent = "Generating…";
+      document.getElementById("spinner").classList.add("active");
+    });
+  </script>
+</body>
+</html>

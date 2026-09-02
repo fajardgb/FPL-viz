@@ -1,0 +1,224 @@
+:root {
+  --bg: #0f1420;
+  --surface: #161d2e;
+  --surface-raised: #1d2740;
+  --border: #2a3552;
+  --text: #eef1f8;
+  --text-dim: #9aa4bd;
+  --accent: #37e08f;
+  --accent-dim: #1f9d63;
+  --gold: #e0b937;
+  --silver: #c3c9d6;
+  --bronze: #c98a4b;
+  --danger: #ef6b6b;
+  --radius: 14px;
+  --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, Helvetica, Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 48px 24px 96px;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.brand-mark {
+  font-size: 1.4rem;
+}
+
+.brand-name {
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  color: var(--text-dim);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  margin: 4px 0 8px;
+}
+
+.subtitle {
+  color: var(--text-dim);
+  font-size: 1rem;
+  margin-bottom: 40px;
+}
+
+/* ── Form ─────────────────────────────────────────────────────────────── */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 32px;
+}
+
+.field {
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.field input {
+  width: 100%;
+  background: var(--surface-raised);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 12px 14px;
+  font-size: 1rem;
+  color: var(--text);
+  font-family: var(--font);
+}
+
+.field input:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.field .hint {
+  margin-top: 8px;
+  font-size: 0.82rem;
+  color: var(--text-dim);
+}
+
+.submit {
+  width: 100%;
+  background: var(--accent);
+  color: #072116;
+  border: none;
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+
+.submit:hover { background: #4ff0a0; }
+.submit:disabled { background: var(--accent-dim); cursor: wait; }
+
+.error-box {
+  background: rgba(239, 107, 107, 0.12);
+  border: 1px solid rgba(239, 107, 107, 0.4);
+  color: #ffb3b3;
+  border-radius: 10px;
+  padding: 14px 16px;
+  margin-bottom: 24px;
+  font-size: 0.92rem;
+}
+
+.spinner-overlay {
+  display: none;
+  align-items: center;
+  gap: 12px;
+  margin-top: 20px;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.spinner-overlay.active { display: flex; }
+
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ── Report ───────────────────────────────────────────────────────────── */
+
+.report-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 32px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--border);
+}
+
+.report-meta {
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.actions { display: flex; gap: 12px; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border: 1px solid var(--border);
+  color: var(--text);
+}
+
+.btn.primary {
+  background: var(--accent);
+  color: #072116;
+  border-color: transparent;
+}
+
+.chart-section {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.chart-section img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  background: #fff;
+}
+
+footer {
+  margin-top: 48px;
+  color: var(--text-dim);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media print {
+  body { background: #fff; color: #000; }
+  .actions, .brand, footer { display: none; }
+  .chart-section { border: none; box-shadow: none; break-inside: avoid; }
+}

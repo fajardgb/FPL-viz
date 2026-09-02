@@ -1,0 +1,13 @@
+{
+  "events": [
+    {"id": 1, "finished": true, "is_current": false, "is_next": false},
+    {"id": 2, "finished": true, "is_current": false, "is_next": false},
+    {"id": 3, "finished": false, "is_current": true, "is_next": false},
+    {"id": 4, "finished": false, "is_current": false, "is_next": true}
+  ],
+  "elements": [
+    {"id": 1, "web_name": "Player A", "now_cost": 55, "total_points": 40},
+    {"id": 2, "web_name": "Player B", "now_cost": 100, "total_points": 60},
+    {"id": 3, "web_name": "Player C", "now_cost": 45, "total_points": 20}
+  ]
+}

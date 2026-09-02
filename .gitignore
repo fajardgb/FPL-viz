@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Per-league fetched data and generated report output (personal/live data, not source)
+league_*/
+
+# Runtime disk cache for the web app
+cache/
+.diskcache/
+
+# Python env
+.venv/
+venv/
+*.egg-info/

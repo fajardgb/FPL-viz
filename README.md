@@ -4,7 +4,7 @@ Some neat tools for the official Fantasy Premier League (FPL) game.
 
 As the Commisioner of an FPL league, I created a few informative tools to make the season more fun! 
 
-Refer to this article for a guide on how to use the FPL API [A Complete Guide to the Fantasy Premier League (FPL) API](https://www.game-change.co.uk/2023/02/10/a-complete-guide-to-the-fantasy-premier-league-fpl-api/)!
+Refer to this article for a guide on how to use the FPL API: [A Complete Guide to the Fantasy Premier League (FPL) API](https://www.game-change.co.uk/2023/02/10/a-complete-guide-to-the-fantasy-premier-league-fpl-api/)!
 
 ## League user visualizations
 To get started, we need your league's ID, which can be found by following these instructions:
